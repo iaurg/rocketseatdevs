@@ -19,6 +19,7 @@ Como vi diversas pessoas compartilhando redes e querendo fazer um networking atr
  ```
 
  Adicione suas informações no final do objeto dentro do arquivo persons.js da seguinte maneira:
+ **ps:** Lembre-se de manter os demais usuários no arquivo. Apenas adicione o seu bloco de informação seguindo o padrão. Veja o padrão do usuários já existente e siga o mesmo.
 ```javascript
     {
       name: "Seu_nome",

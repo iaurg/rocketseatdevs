@@ -47,6 +47,11 @@ export const persons = [
     {
       name: "Pedro Oliveira",
       gituser: "Axobirosbaldo",
-      linkedin: "pedro-lopes-de-oliveira-645438125"    
+      linkedin: "https://www.linkedin.com/in/pedro-lopes-de-oliveira-645438125"    
+    },
+    {
+      name: "João Pedro",
+      gituser: "jpmuniz",
+      linkedin: "https://www.linkedin.com/in/jo%C3%A3o-pedro-00939867/"    
     },
 ];
