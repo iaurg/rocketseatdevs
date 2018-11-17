@@ -17,6 +17,7 @@ export default class CardUser extends Component {
     loadGitUser = async () =>{
         const response = await api.get(`/${this.props.github}/client_id=${apiId}&client_secret=${apiSecret}`);
         console.log(response.data);
+        console.log(apiId, apiSecret)
         this.setState({user: response.data})
     }
 
