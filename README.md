@@ -14,8 +14,8 @@ Como vi diversas pessoas compartilhando redes e querendo fazer um networking atr
     git clone link-do-fork-feito
     cd rockeatdevs
     git checkout -b Seu_nome
-    cd src
-    code person.js
+    cd src/components
+    code persons.js
  ```
 
  Adicione suas informações no final do objeto dentro do arquivo persons.js da seguinte maneira:
