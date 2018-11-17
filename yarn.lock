@@ -2858,14 +2858,6 @@ dot-prop@^4.1.1:
   dependencies:
     is-obj "^1.0.0"
 
-dotenv-expand@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-4.2.0.tgz#def1f1ca5d6059d24a766e587942c21106ce1275"
-
-dotenv@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.0.0.tgz#24e37c041741c5f4b25324958ebbc34bca965935"
-
 draft-js@^0.10.0, draft-js@~0.10.0:
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/draft-js/-/draft-js-0.10.5.tgz#bfa9beb018fe0533dbb08d6675c371a6b08fa742"
@@ -7531,8 +7523,6 @@ react-scripts@2.1.1:
     case-sensitive-paths-webpack-plugin "2.1.2"
     chalk "2.4.1"
     css-loader "1.0.0"
-    dotenv "6.0.0"
-    dotenv-expand "4.2.0"
     eslint "5.6.0"
     eslint-config-react-app "^3.0.5"
     eslint-loader "2.1.1"
