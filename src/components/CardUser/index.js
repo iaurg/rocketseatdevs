@@ -1,47 +1,45 @@
 import React, { Component } from 'react';
-import { Card, Icon, Avatar, Col} from 'antd';
+import { Card, Icon, Avatar, Col, Badge} from 'antd';
 import api from '../../services/api';
 
 const { Meta } = Card;
-// import { Container } from './styles';
-const apiId = process.env.REACT_APP_GIT_API_ID;
-const apiSecret = process.env.REACT_APP_GIT_API_SECRET;
 
 export default class CardUser extends Component {
     state = {
-      user: []
+      user: [],
+      hireable: false
     }
     componentDidMount(){
       this.loadGitUser();
     }
 
     loadGitUser = async () =>{
-        const response = await api.get(`/${this.props.github}?client_id=${apiId}&client_secret=${apiSecret}`);
-        console.log(response.data);
-        console.log('Api ID Git', apiId);
-        console.log('Api secret git', apiSecret);
-        console.log('Var do heroku', process.env.REACT_APP_GIT_API_ID2);
-        this.setState({user: response.data})
-    }
+        const response = await api.get(`/${this.props.github}`);
+        this.setState({user: response.data, hireable: response.data.hireable})
+    }   
 
   render() {
+    const isHireable = this.state.hireable;
+    let alertHireable;
+    isHireable ? alertHireable = <Badge dot style={{marginTop:"30px"}} status="success" text="Disponivel para contratação"/> : alertHireable = '';
+    
     return (
       <Col xs={24} sm={12} md={12} lg={8} xl={6}>
-        
         <Card   
           style={{ width: "100%", marginBottom: 16 }}          
           actions={[
           <a href={this.state.user.blog} target="_blank" rel="noopener noreferrer"><Icon type="link" /></a>, 
-          <a href={this.props.linkedin}><Icon type="linkedin" /></a>, 
-          <a href={this.state.user.html_url}><Icon type="github" /></a>, 
-          <a href={this.state.user.email}><Icon type="mail" /></a>
+          <a href={this.props.linkedin} target="_blank" rel="noopener noreferrer"><Icon type="linkedin" /></a>, 
+          <a href={this.state.user.html_url} target="_blank" rel="noopener noreferrer"><Icon type="github" /></a>, 
+          <a href={`mailto:${this.state.user.email}`} target="_blank" rel="noopener noreferrer"><Icon type="mail" /></a>
           ]}
-        >
+        >          
           <Meta
             avatar={<Avatar src={this.state.user.avatar_url} />}
             title={this.state.user.name}
             description={this.state.user.bio}            
           />
+          {alertHireable}
         </Card>
       </Col>        
     );
