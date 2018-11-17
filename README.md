@@ -1,7 +1,5 @@
 ## Rockeseat.Devs
 
-![alt text](https://rocketseatdevs.herokuapp.com/static/media/logo-rocketseat-devs.8a75e733.svg "Rocketseat.Devs")
-
 [Acessar site Rocketseat.Devs](https://rocketseatdevs.herokuapp.com)
 
 Como vi diversas pessoas compartilhando redes e querendo fazer um networking através da comunidade no Discord resolvi criar este app para que todos possam contribuir, treinar um pouco de git e ficar listado em uma página de desenvolvedores Rocketseat.
