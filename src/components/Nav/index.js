@@ -12,7 +12,8 @@ export default class HeaderDev extends Component {
           </a>
           <div className="logo">
             <img src={devsLogo} alt="RocketSeat Devs" height={30}/>
-          </div>          
+          </div>
+          <span style={{color:"#fff"}}>Faça parte da lista, acesse o <a href="https://github.com/Italox/rocketseatdevs" target="_blank" rel="noopener noreferrer">repositorio no github</a> e saiba como.</span>
         </Header>
     );
   }
