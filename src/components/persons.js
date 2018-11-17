@@ -25,8 +25,18 @@ export const persons = [
       linkedin: "http://linkedin.com.br"    
     },
     {
-      name: "Robson",
+      name: "Robson Marques",
       gituser: "robsonmarques",
+      linkedin: "http://linkedin.com.br"    
+    },
+    {
+      name: "João Paulo de Magalhães",
+      gituser: "jpdemagalhaes",
+      linkedin: "http://linkedin.com.br"    
+    },
+    {
+      name: "Guilherme Pellizzetti",
+      gituser: "pellizzetti",
       linkedin: "http://linkedin.com.br"    
     },
 ];
