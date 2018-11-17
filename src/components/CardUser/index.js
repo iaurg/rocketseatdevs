@@ -20,6 +20,7 @@ export default class CardUser extends Component {
         console.log(response.data);
         console.log('Api ID Git', apiId);
         console.log('Api secret git', apiSecret);
+        console.log('Var do heroku', process.env.REACT_APP_GIT_API_ID2);
         this.setState({user: response.data})
     }
 
