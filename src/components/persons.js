@@ -29,4 +29,9 @@ export const persons = [
       gituser: "robsonmarques",
       linkedin: "http://linkedin.com.br"    
     },
+    {
+      name: "Bruno Frigeri",
+      gituser: "brunofrigeri",
+      linkedin: "https://www.linkedin.com/in/bruno-frigeri-b8b29a175/"    
+    },
 ];
