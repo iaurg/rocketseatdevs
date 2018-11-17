@@ -4,7 +4,8 @@ import api from '../../services/api';
 
 const { Meta } = Card;
 // import { Container } from './styles';
-
+const apiId = process.env.GIT_API_ID;
+const apiSecret = process.env.GIT_API_SECRET;
 export default class CardUser extends Component {
     state = {
       user: []
@@ -14,7 +15,7 @@ export default class CardUser extends Component {
     }
 
     loadGitUser = async () =>{
-        const response = await api.get(`/${this.props.github}`);
+        const response = await api.get(`/${this.props.github}/client_id=${apiId}&client_secret=${apiSecret}`);
         console.log(response.data);
         this.setState({user: response.data})
     }
