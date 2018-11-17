@@ -33,5 +33,15 @@ export const persons = [
       name: "Bruno Frigeri",
       gituser: "brunofrigeri",
       linkedin: "https://www.linkedin.com/in/bruno-frigeri-b8b29a175/"    
+    },    
+    {
+      name: "João Paulo de Magalhães ",
+      gituser: "jpdemagalhaes",
+      linkedin: "http://linkedin.com.br"    
+    },
+    {
+      name: "Guilherme Pellizzetti",
+      gituser: "pellizzetti",
+      linkedin: "http://linkedin.com.br"    
     },
 ];
