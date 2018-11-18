@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Layout, Row } from "antd";
+import { Layout } from "antd";
 import CardUser from "../../components/CardUser";
 import { persons } from "../../components/persons";
+import MasonryLayout from "../../components/MasonryLayout";
 import * as _ from "lodash";
 
 const { Content } = Layout;
@@ -25,7 +26,7 @@ export default class Main extends Component {
     return (
       <Content style={{ padding: "0 50px" }}>
         <div style={{ background: "#fff", padding: 24, minHeight: 280 }}>
-          <Row gutter={24} type="flex" justify="start">
+          <MasonryLayout gap={15}>
             {this.persons.map(person => (
               <CardUser
                 key={person.gituser}
@@ -33,7 +34,7 @@ export default class Main extends Component {
                 github={person.gituser}
               />
             ))}
-          </Row>
+          </MasonryLayout>
         </div>
       </Content>
     );
