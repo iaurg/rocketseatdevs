@@ -53,6 +53,16 @@ export const persons = [
       name: "João Pedro",
       gituser: "jpmuniz",
       linkedin: "https://www.linkedin.com/in/jo%C3%A3o-pedro-00939867/"    
+    },  
+    {
+      name: "Lucas Fernandes Sandin",
+      gituser: "lucassandin",
+      linkedin: "https://www.linkedin.com/in/lucas-fernandes-sandin-974488172/"    
+    },    
+    {
+      name: "Italo Izaac",
+      gituser: "iiandrade",
+      linkedin: "https://www.linkedin.com/in/iiandrade/"
     },
     {
       name: "André Nunes",
