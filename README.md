@@ -12,7 +12,7 @@ Como vi diversas pessoas compartilhando redes e querendo fazer um networking atr
 
  ```
     git clone link-do-fork-feito
-    cd rockeatdevs
+    cd rockseatdevs
     git checkout -b Seu_nome
     cd src/components
     code persons.js
