@@ -88,4 +88,9 @@ export const persons = [{
     gituser: "marcioamatte",
     linkedin: "https://www.linkedin.com/in/marcioam/"
   },
+  {
+    name: "Eduardo Spada",
+    gituser: "duspada",
+    linkedin: "https://www.linkedin.com/in/duspada/"    
+  },
 ];
