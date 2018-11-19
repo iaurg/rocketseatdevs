@@ -79,4 +79,9 @@ export const persons = [
       gituser: "abimaelandrade",
       linkedin: "https://www.linkedin.com/in/abimaelandrade/"
     },
+    {
+      name: "Vinicius Meneses",
+      gituser: "viniciusmeneses",
+      linkedin: "https://www.linkedin.com/in/vinicius-meneses/"
+    },
 ];
