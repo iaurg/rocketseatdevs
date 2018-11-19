@@ -93,4 +93,9 @@ export const persons = [{
     gituser: "duspada",
     linkedin: "https://www.linkedin.com/in/duspada/"    
   },
+  {
+    name: "Wesley Monaro",
+    gituser: "wesleymonaro",
+    linkedin: "https://www.linkedin.com/in/wesleymonaro/"    
+  },
 ];
