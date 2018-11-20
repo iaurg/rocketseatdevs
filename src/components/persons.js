@@ -91,11 +91,16 @@ export const persons = [{
   {
     name: "Eduardo Spada",
     gituser: "duspada",
-    linkedin: "https://www.linkedin.com/in/duspada/"    
+    linkedin: "https://www.linkedin.com/in/duspada/"
   },
   {
     name: "Wesley Monaro",
     gituser: "wesleymonaro",
-    linkedin: "https://www.linkedin.com/in/wesleymonaro/"    
+    linkedin: "https://www.linkedin.com/in/wesleymonaro/"
+  },
+  {
+    name: "Yan Oliveira",
+    gituser: "YanOliveira",
+    linkedin: "https://www.linkedin.com/in/yanoliveirati/"
   },
 ];
