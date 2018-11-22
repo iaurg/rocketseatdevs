@@ -113,4 +113,9 @@ export const persons = [{
     gituser: "outsid3rBr",
     linkedin: "https://www.linkedin.com/in/jo%C3%A3o-g-25aa81106/"
   },
+  {
+    name: "Ruan Kaylo",
+    gituser: "RuanAyram",
+    linkedin: "https://www.linkedin.com/in/ruan-kaylo-99805812b/"
+  },
 ];
