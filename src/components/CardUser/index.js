@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Icon, Avatar, Col, Badge } from "antd";
+import { Card, Icon, Avatar, Badge } from "antd";
 import api from "../../services/api";
 
 const { Meta } = Card;
