@@ -108,4 +108,8 @@ export const persons = [{
     gituser: "danielpavone",
     linkedin: "https://www.linkedin.com/in/danielpavone/"
   },
+    name: "João Gabriel Pancheski",
+    gituser: "outsid3rBr",
+    linkedin: "https://www.linkedin.com/in/jo%C3%A3o-g-25aa81106/"
+  },
 ];
