@@ -119,6 +119,11 @@ export const persons = [{
     linkedin: "https://www.linkedin.com/in/ruan-kaylo-99805812b/"
   },
   {
+    name: "João Medeiros",
+    gituser: "Jaum97",
+    linkedin: "https://www.linkedin.com/in/joaommedeiros/"
+  },
+  {
     name: "Caique Oliveira",
     gituser: "CaiqueMOliveira",
     linkedin: "https://www.linkedin.com/in/caiquemoliveira/"
