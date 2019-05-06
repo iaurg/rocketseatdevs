@@ -123,4 +123,9 @@ export const persons = [{
     gituser: "Jaum97",
     linkedin: "https://www.linkedin.com/in/joaommedeiros/"
   },
+  {
+    name: "Caique Oliveira",
+    gituser: "CaiqueMOliveira",
+    linkedin: "https://www.linkedin.com/in/caiquemoliveira/"
+  }
 ];
