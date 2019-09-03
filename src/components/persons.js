@@ -127,5 +127,10 @@ export const persons = [{
     name: "Caique Oliveira",
     gituser: "CaiqueMOliveira",
     linkedin: "https://www.linkedin.com/in/caiquemoliveira/"
+  },
+  {
+    name: "Andre Rego",
+    gituser: "AndreMRego",
+    linkedin: "https://www.linkedin.com/in/andremrego"    
   }
 ];
