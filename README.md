@@ -36,6 +36,6 @@ Salve.
     git push origin Seu_nome
 ```
 
-Após enviar o branch para seu repositorio abra um pull request e aguarde o merge :D
+Após enviar o branch para seu repositorio abra um pull request e aguarde o merge
 
 Até mais.
