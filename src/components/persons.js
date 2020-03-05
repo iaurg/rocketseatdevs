@@ -1,4 +1,5 @@
-export const persons = [{
+export const persons = [
+  {
     name: "Italo Aurelio",
     gituser: "italox",
     linkedin: "http://linkedin.com.br"
@@ -131,11 +132,16 @@ export const persons = [{
   {
     name: "Andre Rego",
     gituser: "AndreMRego",
-    linkedin: "https://www.linkedin.com/in/andremrego"    
+    linkedin: "https://www.linkedin.com/in/andremrego"
   },
   {
     name: "Victor Nogueira",
     gituser: "vmnog",
-    linkedin: "https://www.linkedin.com/in/vmnogueira"    
+    linkedin: "https://www.linkedin.com/in/vmnogueira"
+  },
+  {
+    name: "Dailton Bastos",
+    gituser: "Dailton-Bastos",
+    linkedin: "https://www.linkedin.com/in/dailton-bastos/"
   }
 ];
