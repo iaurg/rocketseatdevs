@@ -137,5 +137,10 @@ export const persons = [{
     name: "Victor Nogueira",
     gituser: "vmnog",
     linkedin: "https://www.linkedin.com/in/vmnogueira"    
-  }
+  },
+  {
+    name: "Lucas Rego",
+    gituser: "lucasraziel",
+    linkedin: "https://www.linkedin.com/in/lucassoaresrego/"
+  },
 ];
