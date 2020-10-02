@@ -155,6 +155,11 @@ export const persons = [
     linkedin: "https://www.linkedin.com/in/vmnogueira"    
   },
   {
+    name: "Lucas Rego",
+    gituser: "lucasraziel",
+    linkedin: "https://www.linkedin.com/in/lucassoaresrego/"
+  },
+  {
     name: 'Igor Cantelmo',
     gituser: 'Igorbrands',
     linkedin: 'https://www.linkedin.com/in/igor-cantelmo-dev',
