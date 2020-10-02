@@ -138,6 +138,21 @@ export const persons = [
     name: 'Victor Nogueira',
     gituser: 'vmnog',
     linkedin: 'https://www.linkedin.com/in/vmnogueira',
+  },  
+  {
+    name: "Helena Paixão",
+    gituser:"helenapaixao",
+    linkedin:"https://www.linkedin.com/in/helenapaixao"
+  },                         
+  {
+    name: "Lucas Lombardi Floriano",
+    gituser: "lucaslombardif",
+    linkedin: "https://www.linkedin.com/in/lucas-lombardi-floriano"
+  },
+  {   
+    name: "Victor Nogueira",
+    gituser: "vmnog",
+    linkedin: "https://www.linkedin.com/in/vmnogueira"    
   },
   {
     name: 'Igor Cantelmo',
