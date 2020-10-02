@@ -142,5 +142,11 @@ export const persons = [{
     name: "Helena Paixão",
     gituser:"helenapaixao",
     linkedin:"https://www.linkedin.com/in/helenapaixao"
-  }
+  },                         
+  {
+    name: "Lucas Lombardi Floriano",
+    gituser: "lucaslombardif",
+    linkedin: "https://www.linkedin.com/in/lucas-lombardi-floriano"    
+
+  },
 ];
