@@ -1,143 +1,144 @@
-export const persons = [{
-    name: "Italo Aurelio",
-    gituser: "italox",
-    linkedin: "http://linkedin.com.br"
+export const persons = [
+  {
+    name: 'Italo Aurelio',
+    gituser: 'italox',
+    linkedin: 'http://linkedin.com.br',
   },
   {
-    name: "RocketSeat",
-    gituser: "rocketseat",
-    linkedin: "http://linkedin.com.br"
+    name: 'RocketSeat',
+    gituser: 'rocketseat',
+    linkedin: 'http://linkedin.com.br',
   },
   {
-    name: "Cleiton Souze",
-    gituser: "cleitonsouza",
-    linkedin: "http://linkedin.com.br"
+    name: 'Cleiton Souze',
+    gituser: 'cleitonsouza',
+    linkedin: 'http://linkedin.com.br',
   },
   {
-    name: "Claudio junior",
-    gituser: "cso01",
-    linkedin: "http://linkedin.com.br"
+    name: 'Claudio junior',
+    gituser: 'cso01',
+    linkedin: 'http://linkedin.com.br',
   },
   {
-    name: "Diego Fernandes",
-    gituser: "diego3g",
-    linkedin: "http://linkedin.com.br"
+    name: 'Diego Fernandes',
+    gituser: 'diego3g',
+    linkedin: 'http://linkedin.com.br',
   },
   {
-    name: "Robson Marques",
-    gituser: "robsonmarques",
-    linkedin: "http://linkedin.com.br"
+    name: 'Robson Marques',
+    gituser: 'robsonmarques',
+    linkedin: 'http://linkedin.com.br',
   },
   {
-    name: "Bruno Frigeri",
-    gituser: "brunofrigeri",
-    linkedin: "https://www.linkedin.com/in/bruno-frigeri-b8b29a175/"
+    name: 'Bruno Frigeri',
+    gituser: 'brunofrigeri',
+    linkedin: 'https://www.linkedin.com/in/bruno-frigeri-b8b29a175/',
   },
   {
-    name: "João Paulo de Magalhães ",
-    gituser: "jpdemagalhaes",
-    linkedin: "http://linkedin.com.br"
+    name: 'João Paulo de Magalhães ',
+    gituser: 'jpdemagalhaes',
+    linkedin: 'http://linkedin.com.br',
   },
   {
-    name: "Guilherme Pellizzetti",
-    gituser: "pellizzetti",
-    linkedin: "http://linkedin.com.br"
+    name: 'Guilherme Pellizzetti',
+    gituser: 'pellizzetti',
+    linkedin: 'http://linkedin.com.br',
   },
   {
-    name: "Pedro Oliveira",
-    gituser: "Axobirosbaldo",
-    linkedin: "https://www.linkedin.com/in/pedro-lopes-de-oliveira-645438125"
+    name: 'Pedro Oliveira',
+    gituser: 'Axobirosbaldo',
+    linkedin: 'https://www.linkedin.com/in/pedro-lopes-de-oliveira-645438125',
   },
   {
-    name: "João Pedro",
-    gituser: "jpmuniz",
-    linkedin: "https://www.linkedin.com/in/jo%C3%A3o-pedro-00939867/"
+    name: 'João Pedro',
+    gituser: 'jpmuniz',
+    linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-pedro-00939867/',
   },
   {
-    name: "Lucas Fernandes Sandin",
-    gituser: "lucassandin",
-    linkedin: "https://www.linkedin.com/in/lucas-fernandes-sandin-974488172/"
+    name: 'Lucas Fernandes Sandin',
+    gituser: 'lucassandin',
+    linkedin: 'https://www.linkedin.com/in/lucas-fernandes-sandin-974488172/',
   },
   {
-    name: "Italo Izaac",
-    gituser: "iiandrade",
-    linkedin: "https://www.linkedin.com/in/iiandrade/"
+    name: 'Italo Izaac',
+    gituser: 'iiandrade',
+    linkedin: 'https://www.linkedin.com/in/iiandrade/',
   },
   {
-    name: "André Nunes",
-    gituser: "AndreNunes1812",
-    linkedin: "www.linkedin.com/in/andrenunes18"
+    name: 'André Nunes',
+    gituser: 'AndreNunes1812',
+    linkedin: 'www.linkedin.com/in/andrenunes18',
   },
   {
-    name: "Stênia Felix",
-    gituser: "steniafelix",
-    linkedin: "https://www.linkedin.com/in/steniafelix/"
+    name: 'Stênia Felix',
+    gituser: 'steniafelix',
+    linkedin: 'https://www.linkedin.com/in/steniafelix/',
   },
   {
-    name: "Abimael Andrade",
-    gituser: "abimaelandrade",
-    linkedin: "https://www.linkedin.com/in/abimaelandrade/"
+    name: 'Abimael Andrade',
+    gituser: 'abimaelandrade',
+    linkedin: 'https://www.linkedin.com/in/abimaelandrade/',
   },
   {
-    name: "Vinicius Meneses",
-    gituser: "viniciusmeneses",
-    linkedin: "https://www.linkedin.com/in/vinicius-meneses/"
+    name: 'Vinicius Meneses',
+    gituser: 'viniciusmeneses',
+    linkedin: 'https://www.linkedin.com/in/vinicius-meneses/',
   },
   {
-    name: "Marcio Angelo Matté",
-    gituser: "marcioamatte",
-    linkedin: "https://www.linkedin.com/in/marcioam/"
+    name: 'Marcio Angelo Matté',
+    gituser: 'marcioamatte',
+    linkedin: 'https://www.linkedin.com/in/marcioam/',
   },
   {
-    name: "Eduardo Spada",
-    gituser: "duspada",
-    linkedin: "https://www.linkedin.com/in/duspada/"
+    name: 'Eduardo Spada',
+    gituser: 'duspada',
+    linkedin: 'https://www.linkedin.com/in/duspada/',
   },
   {
-    name: "Wesley Monaro",
-    gituser: "wesleymonaro",
-    linkedin: "https://www.linkedin.com/in/wesleymonaro/"
+    name: 'Wesley Monaro',
+    gituser: 'wesleymonaro',
+    linkedin: 'https://www.linkedin.com/in/wesleymonaro/',
   },
   {
-    name: "Yan Oliveira",
-    gituser: "YanOliveira",
-    linkedin: "https://www.linkedin.com/in/yanoliveirati/"
+    name: 'Yan Oliveira',
+    gituser: 'YanOliveira',
+    linkedin: 'https://www.linkedin.com/in/yanoliveirati/',
   },
   {
-    name: "Daniel Pavone",
-    gituser: "danielpavone",
-    linkedin: "https://www.linkedin.com/in/danielpavone/"
+    name: 'Daniel Pavone',
+    gituser: 'danielpavone',
+    linkedin: 'https://www.linkedin.com/in/danielpavone/',
   },
   {
-    name: "João Gabriel Pancheski",
-    gituser: "outsid3rBr",
-    linkedin: "https://www.linkedin.com/in/jo%C3%A3o-g-25aa81106/"
+    name: 'João Gabriel Pancheski',
+    gituser: 'outsid3rBr',
+    linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-g-25aa81106/',
   },
   {
-    name: "Ruan Kaylo",
-    gituser: "RuanAyram",
-    linkedin: "https://www.linkedin.com/in/ruan-kaylo-99805812b/"
+    name: 'Ruan Kaylo',
+    gituser: 'RuanAyram',
+    linkedin: 'https://www.linkedin.com/in/ruan-kaylo-99805812b/',
   },
   {
-    name: "João Medeiros",
-    gituser: "Jaum97",
-    linkedin: "https://www.linkedin.com/in/joaommedeiros/"
+    name: 'João Medeiros',
+    gituser: 'Jaum97',
+    linkedin: 'https://www.linkedin.com/in/joaommedeiros/',
   },
   {
-    name: "Caique Oliveira",
-    gituser: "CaiqueMOliveira",
-    linkedin: "https://www.linkedin.com/in/caiquemoliveira/"
+    name: 'Caique Oliveira',
+    gituser: 'CaiqueMOliveira',
+    linkedin: 'https://www.linkedin.com/in/caiquemoliveira/',
   },
   {
-    name: "Andre Rego",
-    gituser: "AndreMRego",
-    linkedin: "https://www.linkedin.com/in/andremrego"    
+    name: 'Andre Rego',
+    gituser: 'AndreMRego',
+    linkedin: 'https://www.linkedin.com/in/andremrego',
   },
   {
-    name: "Victor Nogueira",
-    gituser: "vmnog",
-    linkedin: "https://www.linkedin.com/in/vmnogueira"    
-  },
+    name: 'Victor Nogueira',
+    gituser: 'vmnog',
+    linkedin: 'https://www.linkedin.com/in/vmnogueira',
+  },  
   {
     name: "Helena Paixão",
     gituser:"helenapaixao",
@@ -146,7 +147,16 @@ export const persons = [{
   {
     name: "Lucas Lombardi Floriano",
     gituser: "lucaslombardif",
-    linkedin: "https://www.linkedin.com/in/lucas-lombardi-floriano"    
-
+    linkedin: "https://www.linkedin.com/in/lucas-lombardi-floriano"
+  },
+  {   
+    name: "Victor Nogueira",
+    gituser: "vmnog",
+    linkedin: "https://www.linkedin.com/in/vmnogueira"    
+  },
+  {
+    name: 'Igor Cantelmo',
+    gituser: 'Igorbrands',
+    linkedin: 'https://www.linkedin.com/in/igor-cantelmo-dev',
   },
 ];
