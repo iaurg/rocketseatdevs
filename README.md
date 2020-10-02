@@ -1,6 +1,6 @@
 ## Rockeseat.Devs
 
-[Acessar site Rocketseat.Devs](https://rocketseatdevs.herokuapp.com)
+[Acessar site Rocketseat.Devs](https://rocketseatdevs.vercel.app)
 
 ![Demo App](./print.png "Demo App")
 
